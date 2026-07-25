@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; background:#FBF9F4; }
+    a { color:#C1502F; }
+    a:hover { color:#9B3D22; }
+    ::selection { background:#F2CBB5; }
+  </style>
+</helmet>
+
+<div style="font-family:'Work Sans',sans-serif; background:#FBF9F4; min-height:100vh;">
+
+  <!-- NAV -->
+  <header style="position:sticky; top:0; z-index:50; background:rgba(251,249,244,0.9); backdrop-filter:blur(8px); border-bottom:1px solid rgba(33,31,27,0.08);">
+    <div style="max-width:1280px; margin:0 auto; padding:20px 64px; display:flex; align-items:center; justify-content:space-between;">
+      <a href="Portfolio Home.dc.html" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;text-decoration:none;"><img src="assets/va-logo.png" alt="VA logo" style="width:100%;height:100%;object-fit:contain;"></a>
+      <nav style="display:flex; align-items:center; gap:40px;">
+        <a href="Portfolio Home.dc.html#work" style="font-size:15px; font-weight:500; color:#211F1B; text-decoration:none;">Work</a>
+        <a href="Research and UX Work.dc.html" style="font-size:15px; font-weight:500; color:#211F1B; text-decoration:none;">Research</a>
+        <a href="Portfolio Home.dc.html#contact" style="font-size:15px; font-weight:600; color:#F6F3EC; text-decoration:none; background:#211F1B; padding:10px 20px; border-radius:24px;">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section style="padding:80px 32px 0; text-align:center;" data-screen-label="Hero">
+    <div style="max-width:680px; margin:0 auto;">
+      <span style="font-family:'Work Sans',sans-serif; font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:#0FA895; font-weight:600;">Healthcare · Connectivity · Medical Device UX</span>
+      <h1 style="font-family:'Newsreader',serif; font-weight:500; font-size:42px; line-height:1.22; color:#211F1B; margin:20px 0 0 0;">ASP ACCESS<span style="font-size:20px; vertical-align:super;">™</span> Technology</h1>
+      <p style="font-size:17px; line-height:1.6; color:#5B564D; margin:20px 0 0 0;">A connected sterilization workflow app — designed so clinicians can monitor, manage, and comply with confidence.</p>
+    </div>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin-top:32px;">
+      <span style="font-size:13px; color:#5B564D; background:#F2ECE0; padding:8px 18px; border-radius:20px;">Client — ASP</span>
+      <span style="font-size:13px; color:#5B564D; background:#F2ECE0; padding:8px 18px; border-radius:20px;">Role — Senior UX Designer</span>
+      <span style="font-size:13px; color:#5B564D; background:#F2ECE0; padding:8px 18px; border-radius:20px;">Focus — Sterilization Workflow</span>
+    </div>
+    <div style="max-width:1000px; margin:44px auto 0; border-radius:6px; overflow:hidden; box-shadow:0 20px 60px rgba(33,31,27,0.15);">
+      <img src="assets/asp-hero.png" alt="ASP ACCESS sterilizer touchscreen" style="width:100%; display:block;">
+    </div>
+    <div style="max-width:900px; margin:44px auto 0; display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:rgba(33,31,27,0.1); border:1px solid rgba(33,31,27,0.1); border-radius:8px; overflow:hidden; text-align:center;">
+      <div style="background:#FBF9F4; padding:24px 22px;"><div style="font-family:'Newsreader',serif; font-size:30px; color:#0FA895;">▾63%</div><div style="font-size:13px; color:#8C867A; margin-top:4px;">Cycle errors</div></div>
+      <div style="background:#FBF9F4; padding:24px 22px;"><div style="font-family:'Newsreader',serif; font-size:30px; color:#0FA895;">92%</div><div style="font-size:13px; color:#8C867A; margin-top:4px;">SUS Score</div></div>
+      <div style="background:#FBF9F4; padding:24px 22px;"><div style="font-family:'Newsreader',serif; font-size:30px; color:#0FA895;">▾40%</div><div style="font-size:13px; color:#8C867A; margin-top:4px;">Audit retrieval time</div></div>
+    </div>
+  </section>
+  <div style="height:60px;"></div>
+
+  <!-- WHY EXISTING TOOLS FAIL -->
+  <section style="padding:100px 64px;" data-screen-label="Research: Problem">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#0FA895; font-weight:600;">01 Research</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#211F1B; margin:14px 0 40px 0;">Why the existing tools weren't working</h2>
+      <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:1px; background:rgba(33,31,27,0.08); border-radius:8px; overflow:hidden;">
+        <div style="background:#F2ECE0; padding:28px;">
+          <div style="font-size:13px; color:#8C867A; margin-bottom:8px;">01</div>
+          <h4 style="font-family:'Newsreader',serif; font-weight:500; font-size:19px; color:#211F1B; margin:0 0 8px 0;">Entirely manual, paper-based process</h4>
+          <p style="font-size:14px; line-height:1.55; color:#5B564D; margin:0;">No tooling existed at all — every Biological Indicator cycle was tracked on paper. Cycles often ran 8+ hours, spanning a shift handoff: the morning staff started a cycle, and evening staff had to pick up and finish the notes, with no shared record between them.</p>
+        </div>
+        <div style="background:#F2ECE0; padding:28px;">
+          <div style="font-size:13px; color:#8C867A; margin-bottom:8px;">02</div>
+          <h4 style="font-family:'Newsreader',serif; font-weight:500; font-size:19px; color:#211F1B; margin:0 0 8px 0;">No real-time status visibility</h4>
+          <p style="font-size:14px; line-height:1.55; color:#5B564D; margin:0;">Staff had to physically walk to machines or make phone calls to check if cycles were running or complete.</p>
+        </div>
+        <div style="background:#F2ECE0; padding:28px;">
+          <div style="font-size:13px; color:#8C867A; margin-bottom:8px;">03</div>
+          <h4 style="font-family:'Newsreader',serif; font-weight:500; font-size:19px; color:#211F1B; margin:0 0 8px 0;">Fragmented compliance records</h4>
+          <p style="font-size:14px; line-height:1.55; color:#5B564D; margin:0;">Cycle history lived in multiple disconnected systems, forcing manual log reconciliation before every audit.</p>
+        </div>
+        <div style="background:#F2ECE0; padding:28px;">
+          <div style="font-size:13px; color:#8C867A; margin-bottom:8px;">04</div>
+          <h4 style="font-family:'Newsreader',serif; font-weight:500; font-size:19px; color:#211F1B; margin:0 0 8px 0;">Low tech fluency, high error rate</h4>
+          <p style="font-size:14px; line-height:1.55; color:#5B564D; margin:0;">Cycles were run by clinical staff, not technologists — limited technical familiarity meant missed cycles and incorrectly recorded notes were common.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:48px; background:#0FA895; border-radius:6px; padding:28px 32px;">
+        <span style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(0,0,0,0.6); font-weight:700;">Core Design Question</span>
+        <p style="font-family:'Newsreader',serif; font-weight:500; font-size:22px; line-height:1.4; color:#0E1210; margin:12px 0 0 0;">How might we design a connected app that enables healthcare professionals to manage sterilization cycles confidently — in a complex, regulated, high-stakes environment?</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERSONAS -->
+  <section style="background:#F2ECE0; padding:100px 64px;" data-screen-label="Personas">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#0FA895; font-weight:600;">02 Users</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#211F1B; margin:14px 0 40px 0;">Three personas, one shared need</h2>
+      <div style="display:flex; flex-direction:column; gap:16px;">
+        <div style="background:#FBF9F4; border-radius:8px; padding:24px 28px; display:grid; grid-template-columns:200px 1fr; gap:24px; align-items:start;">
+          <div style="font-size:16px; font-weight:600; color:#211F1B;">SPD Technicians</div>
+          <div><span style="font-size:14px; color:#5B564D;">Need instant cycle status at a glance, immediate alerts on faults, and a simple minimal-step flow. Clinical staff, not technologists — with cycles running 8+ hrs across shift changes, they need a handoff record that carries over automatically instead of relying on handwritten notes passed to the next shift.</span></div>
+        </div>
+        <div style="background:#FBF9F4; border-radius:8px; padding:24px 28px; display:grid; grid-template-columns:200px 1fr; gap:24px; align-items:start;">
+          <div style="font-size:16px; font-weight:600; color:#211F1B;">Infection Control Managers</div>
+          <div><span style="font-size:14px; color:#5B564D;">Need searchable full cycle history, one-tap exportable reports, and anomaly detection &amp; flagging. Previously reconciled paper logs by hand before every audit, with no way to catch a missed or misrecorded BI cycle until it was too late.</span></div>
+        </div>
+        <div style="background:#FBF9F4; border-radius:8px; padding:24px 28px; display:grid; grid-template-columns:200px 1fr; gap:24px; align-items:start;">
+          <div style="font-size:16px; font-weight:600; color:#211F1B;">OR Nurses</div>
+          <div><span style="font-size:14px; color:#5B564D;">Need to know when instruments are ready, priority processing requests, and confidence in sterility status. Downstream of SPD's manual process, so any dropped note or delayed shift handoff directly delayed instrument turnover for surgery.</span></div>
+        </div>
+      </div>
+
+      <div style="margin-top:40px;">
+        <h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 20px 0;">SPD Technician workflow — an 8+ hour cycle across a shift change</h4>
+        <div style="display:grid; grid-template-columns:repeat(5,1fr); gap:1px; background:rgba(33,31,27,0.08); border-radius:8px; overflow:hidden;">
+          <div style="background:#FBF9F4; padding:20px;"><div style="font-size:12px; color:#8C867A; margin-bottom:6px;">Morning shift</div><h5 style="font-size:14px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Load &amp; start cycle</h5><p style="font-size:13px; line-height:1.5; color:#5B564D; margin:0;">Loads the BI cycle and logs start time on paper.</p></div>
+          <div style="background:#FBF9F4; padding:20px;"><div style="font-size:12px; color:#8C867A; margin-bottom:6px;">Morning shift</div><h5 style="font-size:14px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Walk away</h5><p style="font-size:13px; line-height:1.5; color:#5B564D; margin:0;">No way to monitor remotely — cycle runs unattended for hours.</p></div>
+          <div style="background:#F2ECE0; padding:20px;"><div style="font-size:12px; color:#8C867A; margin-bottom:6px;">Handoff</div><h5 style="font-size:14px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Shift change</h5><p style="font-size:13px; line-height:1.5; color:#5B564D; margin:0;">Morning staff hands off verbally or via handwritten note; evening staff picks up mid-cycle.</p></div>
+          <div style="background:#FBF9F4; padding:20px;"><div style="font-size:12px; color:#8C867A; margin-bottom:6px;">Evening shift</div><h5 style="font-size:14px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Check &amp; interpret results</h5><p style="font-size:13px; line-height:1.5; color:#5B564D; margin:0;">Reads BI results without full context of the morning setup.</p></div>
+          <div style="background:#FBF9F4; padding:20px;"><div style="font-size:12px; color:#8C867A; margin-bottom:6px;">Evening shift</div><h5 style="font-size:14px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Complete &amp; file notes</h5><p style="font-size:13px; line-height:1.5; color:#5B564D; margin:0;">Finishes the paper log — prone to gaps or transcription errors.</p></div>
+        </div>
+      </div>
+
+      <div style="margin-top:40px;">
+        <h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 20px 0;">Pain points, by persona</h4>
+        <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:16px;">
+          <div style="background:#211F1B; border-radius:8px; padding:20px 24px;">
+            <div style="font-size:13px; font-weight:600; color:#F2A488; margin-bottom:12px;">SPD Technicians</div>
+            <div style="display:flex; flex-wrap:wrap; gap:8px;">
+              <span style="font-size:13px; color:#F6F3EC; background:rgba(246,243,236,0.1); padding:6px 14px; border-radius:20px;">Lost handoffs</span>
+              <span style="font-size:13px; color:#F6F3EC; background:rgba(246,243,236,0.1); padding:6px 14px; border-radius:20px;">No mid-cycle visibility</span>
+              <span style="font-size:13px; color:#F6F3EC; background:rgba(246,243,236,0.1); padding:6px 14px; border-radius:20px;">Missed cycles</span>
+            </div>
+          </div>
+          <div style="background:#211F1B; border-radius:8px; padding:20px 24px;">
+            <div style="font-size:13px; font-weight:600; color:#F2A488; margin-bottom:12px;">Infection Control Managers</div>
+            <div style="display:flex; flex-wrap:wrap; gap:8px;">
+              <span style="font-size:13px; color:#F6F3EC; background:rgba(246,243,236,0.1); padding:6px 14px; border-radius:20px;">Manual reconciliation</span>
+              <span style="font-size:13px; color:#F6F3EC; background:rgba(246,243,236,0.1); padding:6px 14px; border-radius:20px;">Late audit catches</span>
+              <span style="font-size:13px; color:#F6F3EC; background:rgba(246,243,236,0.1); padding:6px 14px; border-radius:20px;">No shared record</span>
+            </div>
+          </div>
+          <div style="background:#211F1B; border-radius:8px; padding:20px 24px;">
+            <div style="font-size:13px; font-weight:600; color:#F2A488; margin-bottom:12px;">OR Nurses</div>
+            <div style="display:flex; flex-wrap:wrap; gap:8px;">
+              <span style="font-size:13px; color:#F6F3EC; background:rgba(246,243,236,0.1); padding:6px 14px; border-radius:20px;">No upstream visibility</span>
+              <span style="font-size:13px; color:#F6F3EC; background:rgba(246,243,236,0.1); padding:6px 14px; border-radius:20px;">Surprise delays</span>
+              <span style="font-size:13px; color:#F6F3EC; background:rgba(246,243,236,0.1); padding:6px 14px; border-radius:20px;">Low sterility confidence</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section style="padding:100px 64px;" data-screen-label="Approach">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#0FA895; font-weight:600;">03 Approach</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#211F1B; margin:14px 0 40px 0;">Research-driven, context-first</h2>
+      <div style="display:flex; flex-direction:column; gap:28px;">
+        <div style="display:grid; grid-template-columns:280px 1fr; gap:32px;">
+          <div><h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Contextual Inquiry</h4><p style="font-size:14px; color:#5B564D; margin:0;">Observed SPD workflows across 3 hospitals — mapping every physical and digital touchpoint.</p></div>
+          <div style="background:#E4F7F0; border-radius:6px; padding:18px 22px; font-size:15px; color:#0E1210;">Users scan, not read — status states must be unmistakable within 1 second of viewing.</div>
+        </div>
+        <div style="display:grid; grid-template-columns:280px 1fr; gap:32px;">
+          <div><h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Stakeholder Interviews</h4><p style="font-size:14px; color:#5B564D; margin:0;">14 participants across all 3 personas — capturing mental models, goals, and workarounds.</p></div>
+          <div style="background:#E4F7F0; border-radius:6px; padding:18px 22px; font-size:15px; color:#0E1210;">7 redundant steps in the legacy flow could be collapsed into automated confirmations.</div>
+        </div>
+        <div style="display:grid; grid-template-columns:280px 1fr; gap:32px;">
+          <div><h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Information Architecture</h4><p style="font-size:14px; color:#5B564D; margin:0;">Card sorting with users to define structure — reducing dashboard cognitive load.</p></div>
+          <div style="background:#E4F7F0; border-radius:6px; padding:18px 22px; font-size:15px; color:#0E1210;">Connectivity feedback is essential — hospital networks are inconsistently reliable.</div>
+        </div>
+        <div style="display:grid; grid-template-columns:280px 1fr; gap:32px;">
+          <div><h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Iterative Prototyping</h4><p style="font-size:14px; color:#5B564D; margin:0;">3 rounds of usability testing in clinical environments before developer handoff.</p></div>
+          <div style="background:#E4F7F0; border-radius:6px; padding:18px 22px; font-size:15px; color:#0E1210;">Critical vs. informational alerts must be instantly, visually distinct — no overlap.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRINCIPLES -->
+  <section style="background:#0E1210; padding:100px 64px;" data-screen-label="Principles">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#4FD9C7; font-weight:600;">04 Principles</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#F6F3EC; margin:14px 0 40px 0;">Six rules that governed every decision</h2>
+      <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:28px 48px;">
+        <div><h4 style="font-size:16px; font-weight:600; color:#F6F3EC; margin:0 0 6px 0;">01 · Clarity over completeness</h4><p style="font-size:14px; color:rgba(246,243,236,0.65); margin:0;">Show only what matters in the moment. Technical parameters are accessible, never primary.</p></div>
+        <div><h4 style="font-size:16px; font-weight:600; color:#F6F3EC; margin:0 0 6px 0;">02 · Reduce cognitive load</h4><p style="font-size:14px; color:rgba(246,243,236,0.65); margin:0;">Multi-step flows chunked into single-purpose screens — one question, one action.</p></div>
+        <div><h4 style="font-size:16px; font-weight:600; color:#F6F3EC; margin:0 0 6px 0;">03 · Safety first, always</h4><p style="font-size:14px; color:rgba(246,243,236,0.65); margin:0;">Critical alerts surface immediately. Destructive actions require explicit confirmation.</p></div>
+        <div><h4 style="font-size:16px; font-weight:600; color:#F6F3EC; margin:0 0 6px 0;">04 · Context enables decisions</h4><p style="font-size:14px; color:rgba(246,243,236,0.65); margin:0;">Every screen provides the minimum context needed to act confidently — no more, no less.</p></div>
+        <div><h4 style="font-size:16px; font-weight:600; color:#F6F3EC; margin:0 0 6px 0;">05 · Test in the real environment</h4><p style="font-size:14px; color:rgba(246,243,236,0.65); margin:0;">Prototypes tested in clinical settings — with gloves, noise, and real time pressure.</p></div>
+        <div><h4 style="font-size:16px; font-weight:600; color:#F6F3EC; margin:0 0 6px 0;">06 · Compliance as a design input</h4><p style="font-size:14px; color:rgba(246,243,236,0.65); margin:0;">Regulatory and accessibility requirements shaped the interface from the first wireframe.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTIONS -->
+  <section style="padding:100px 64px;" data-screen-label="Solutions">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#0FA895; font-weight:600;">05 Solutions</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#211F1B; margin:14px 0 12px 0;">From 11 steps to 4</h2>
+      <p style="font-size:17px; line-height:1.6; color:#5B564D; max-width:700px; margin:0 0 48px 0;">A persistent dashboard surfaces cycle status across all connected sterilizers — color-coded states, real-time progress, and push alerts — so technicians never have to leave their station to know what's happening.</p>
+
+      <div style="margin-bottom:48px;">
+        <h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 16px 0;">Sterilization Cycle Initiation Flow</h4>
+        <div style="border-radius:6px; overflow:hidden; background:#0E1210;">
+          <img src="assets/asp-dashboard.png" alt="ASP ACCESS device dashboard with sterilizer status cards" style="width:100%;height:auto;display:block;">
+        </div>
+      </div>
+      <div style="margin-bottom:48px;">
+        <h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 16px 0;">Real-Time Status &amp; Alerts</h4>
+        <div style="border-radius:6px; overflow:hidden; background:#0E1210;">
+          <img src="assets/asp-bi-reader-log.png" alt="Biological indicator reader cycle status and result log" style="width:100%;height:auto;display:block;">
+        </div>
+      </div>
+      <div>
+        <h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 16px 0;">History &amp; Traceability</h4>
+        <div style="border-radius:6px; overflow:hidden; background:#0E1210;">
+          <img src="assets/asp-device-summary-report.png" alt="Device summary compliance report with cycle records table" style="width:100%;height:auto;display:block;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUTCOMES -->
+  <section style="background:#0FA895; padding:100px 64px;" data-screen-label="Outcomes">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:rgba(14,18,16,0.6); font-weight:700;">06 Outcomes</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#0E1210; margin:14px 0 40px 0;">What the design actually delivered</h2>
+      <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:24px; margin-bottom:48px;">
+        <div><div style="font-family:'Newsreader',serif; font-size:40px; color:#0E1210;">63%</div><p style="font-size:13px; color:rgba(14,18,16,0.7); margin:6px 0 0 0;">Reduction in cycle initiation errors</p></div>
+        <div><div style="font-family:'Newsreader',serif; font-size:40px; color:#0E1210;">92</div><p style="font-size:13px; color:rgba(14,18,16,0.7); margin:6px 0 0 0;">SUS score — "Excellent" range</p></div>
+        <div><div style="font-family:'Newsreader',serif; font-size:40px; color:#0E1210;">40%</div><p style="font-size:13px; color:rgba(14,18,16,0.7); margin:6px 0 0 0;">Compliance log retrieval time</p></div>
+        <div><div style="font-family:'Newsreader',serif; font-size:40px; color:#0E1210;">82%</div><p style="font-size:13px; color:rgba(14,18,16,0.7); margin:6px 0 0 0;">Users confident with zero training</p></div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:32px;">
+        <div><h4 style="font-size:15px; font-weight:600; color:#0E1210; margin:0 0 6px 0;">SPD Technicians</h4><p style="font-size:14px; color:rgba(14,18,16,0.75); margin:0;">Higher digital cycle logging adoption, faster initiation, clearer fault recovery through plain-language guidance.</p></div>
+        <div><h4 style="font-size:15px; font-weight:600; color:#0E1210; margin:0 0 6px 0;">Infection Control Managers</h4><p style="font-size:14px; color:rgba(14,18,16,0.75); margin:0;">Audit prep time went from ~3 hours to under 20 minutes; proactive anomaly flagging replaced reactive discovery.</p></div>
+        <div><h4 style="font-size:15px; font-weight:600; color:#0E1210; margin:0 0 6px 0;">OR Nurses</h4><p style="font-size:14px; color:rgba(14,18,16,0.75); margin:0;">Real-time sterility visibility reduced inter-department calls and surgery delays from instrument unavailability.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEARNINGS -->
+  <section style="padding:100px 64px;" data-screen-label="Learnings">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#0FA895; font-weight:600;">07 Learnings</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#211F1B; margin:14px 0 32px 0;">What I took away from this</h2>
+      <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:24px 48px; margin-bottom:40px;">
+        <div><h4 style="font-size:15px; font-weight:600; color:#211F1B; margin:0 0 4px 0;">Domain immersion is essential</h4><p style="font-size:14px; color:#5B564D; margin:0;">Generic UX patterns don't work in healthcare — deep workflow understanding builds trust.</p></div>
+        <div><h4 style="font-size:15px; font-weight:600; color:#211F1B; margin:0 0 4px 0;">Hierarchy impacts safety</h4><p style="font-size:14px; color:#5B564D; margin:0;">Visual clarity directly affects decision-making and reduces risk of errors.</p></div>
+        <div><h4 style="font-size:15px; font-weight:600; color:#211F1B; margin:0 0 4px 0;">Design for unreliable connectivity</h4><p style="font-size:14px; color:#5B564D; margin:0;">Offline support and graceful degradation are critical in hospital environments.</p></div>
+        <div><h4 style="font-size:15px; font-weight:600; color:#211F1B; margin:0 0 4px 0;">Test in real context</h4><p style="font-size:14px; color:#5B564D; margin:0;">Real-world testing (noise, pressure, constraints) reveals issues missed in controlled settings.</p></div>
+        <div><h4 style="font-size:15px; font-weight:600; color:#211F1B; margin:0 0 4px 0;">Compliance drives better design</h4><p style="font-size:14px; color:#5B564D; margin:0;">Regulatory requirements can shape clearer, more structured interactions.</p></div>
+        <div><h4 style="font-size:15px; font-weight:600; color:#211F1B; margin:0 0 4px 0;">Prototypes accelerate alignment</h4><p style="font-size:14px; color:#5B564D; margin:0;">Interactive prototypes resolve stakeholder ambiguity faster than documentation.</p></div>
+      </div>
+      <div style="background:#0FA895; border-radius:8px; padding:32px 36px;">
+        <p style="font-family:'Newsreader',serif; font-weight:500; font-size:22px; line-height:1.4; color:#0E1210; margin:0;">"Designing for healthcare taught me that clarity is not a preference — it is infrastructure for patient safety."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEXT PROJECT -->
+  <a href="Case Study - One Cognizant.dc.html" style="display:block; text-decoration:none;">
+    <section style="background:#0E1210; padding:80px 64px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:24px;">
+      <div>
+        <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:rgba(246,243,236,0.5); font-weight:600;">Next Case Study</span>
+        <h3 style="font-family:'Newsreader',serif; font-weight:500; font-size:36px; color:#F6F3EC; margin:12px 0 0 0;">One Cognizant — Insights DevOps Web Application</h3>
+      </div>
+      <span style="font-size:28px; color:#4FD9C7;">→</span>
+    </section>
+  </a>
+
+</div>
+
+</x-dc>
+</body>
+</html>

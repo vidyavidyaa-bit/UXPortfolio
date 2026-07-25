@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; background:#FBF9F4; }
+    a { color:#C1502F; }
+    a:hover { color:#9B3D22; }
+    ::selection { background:#F2CBB5; }
+  </style>
+</helmet>
+
+<div style="font-family:'Work Sans',sans-serif; background:#FBF9F4; min-height:100vh;">
+
+  <!-- NAV -->
+  <header style="position:sticky; top:0; z-index:50; background:rgba(251,249,244,0.9); backdrop-filter:blur(8px); border-bottom:1px solid rgba(33,31,27,0.08);">
+    <div style="max-width:1280px; margin:0 auto; padding:20px 64px; display:flex; align-items:center; justify-content:space-between;">
+      <a href="Portfolio Home.dc.html" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;text-decoration:none;"><img src="assets/va-logo.png" alt="VA logo" style="width:100%;height:100%;object-fit:contain;"></a>
+      <nav style="display:flex; align-items:center; gap:40px;">
+        <a href="Portfolio Home.dc.html#work" style="font-size:15px; font-weight:500; color:#211F1B; text-decoration:none;">Work</a>
+        <a href="Research and UX Work.dc.html" style="font-size:15px; font-weight:500; color:#211F1B; text-decoration:none;">Research</a>
+        <a href="Portfolio Home.dc.html#contact" style="font-size:15px; font-weight:600; color:#F6F3EC; text-decoration:none; background:#211F1B; padding:10px 20px; border-radius:24px;">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section style="padding:80px 32px 0; text-align:center;" data-screen-label="Hero">
+    <div style="max-width:680px; margin:0 auto;">
+      <span style="font-family:'Work Sans',sans-serif; font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:#C1502F; font-weight:600;">Network Rail · Enterprise Infrastructure</span>
+      <h1 style="font-family:'Newsreader',serif; font-weight:500; font-size:42px; line-height:1.22; color:#211F1B; margin:20px 0 0 0;">Making drainage risk visible, one connected system at a time.</h1>
+      <p style="font-size:17px; line-height:1.6; color:#5B564D; margin:20px 0 0 0;">Network Rail manages over 30,000 km of railway infrastructure across the UK. Drainage — pipes, culverts, ditches, outfalls — had always been tracked asset by asset. Nobody could see the system.</p>
+    </div>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin-top:32px;">
+      <span style="font-size:13px; color:#5B564D; background:#F2ECE0; padding:8px 18px; border-radius:20px;">Client — Network Rail, UK</span>
+      <span style="font-size:13px; color:#5B564D; background:#F2ECE0; padding:8px 18px; border-radius:20px;">Role — Senior UX Point of Contact, working solo</span>
+      <span style="font-size:13px; color:#5B564D; background:#F2ECE0; padding:8px 18px; border-radius:20px;">Products — ARET &amp; StrEAMS</span>
+    </div>
+    <div style="max-width:1100px; margin:44px auto 0; border-radius:4px; overflow:hidden; box-shadow:0 20px 60px rgba(33,31,27,0.12);">
+      <img src="assets/nr-real-dashboard.png" alt="StrEAMS home dashboard — Capital Workbank, Performance Monitoring, Asset Risk" style="width:100%; display:block;">
+    </div>
+  </section>
+
+  <!-- ROLE STRIP -->
+  <section style="padding:44px 64px 100px; text-align:center;" data-screen-label="Project at a Glance">
+    <span style="font-size:13px; color:#8C867A;">Worked closely with UK Dev &amp; Business Analyst teams</span>
+  </section>
+  <div style="height:20px;"></div>
+
+  <!-- THE BRIEF I INHERITED -->
+  <section style="padding:0 64px 100px;" data-screen-label="The Brief I Inherited">
+    <div style="max-width:720px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#C1502F; font-weight:600;">The Brief I Inherited</span>
+      <p style="font-size:19px; line-height:1.7; color:#211F1B; margin:20px 0 0 0;">I joined this project after it was already underway — the drainage challenge had been scoped and the direction loosely set before I came on. There was no runway for a long discovery phase. I was the only designer on it, so my job was to make sense of what existed, explore how it could actually work as an interface, and get it into a shape the dev and BA teams could build.</p>
+      <p style="font-size:19px; line-height:1.7; color:#211F1B; margin:20px 0 0 0;">What I inherited was clear on paper: drainage assets — pipes, culverts, ditches — were registered individually, with no way to see how they connected. An asset manager could look up one culvert, but not the system it belonged to. Data lived across Ellipse, paper records, and a patchwork of spreadsheets.</p>
+      <p style="font-family:'Newsreader',serif; font-style:italic; font-size:24px; line-height:1.5; color:#211F1B; margin:36px 0 0 0;">"There was no system-level view from infall to outfall — drainage was managed as isolated assets, not as connected systems."</p>
+    </div>
+  </section>
+
+  <!-- EXPLORING THE OPTIONS -->
+  <section style="background:#F2ECE0; padding:100px 64px;" data-screen-label="Exploring the Options">
+    <div style="max-width:900px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#C1502F; font-weight:600;">Exploring the Options</span>
+      <p style="font-size:19px; line-height:1.7; color:#211F1B; margin:20px 0 0 0;">Without time for formal research, I leaned on what I could observe directly: how asset managers actually described their day, what they complained about, and where they got stuck moving between tools. Three things kept surfacing — too much fragmented data, no way to tell what mattered right now, and zero visibility into how one failing asset affected the ones around it.</p>
+      <p style="font-size:19px; line-height:1.7; color:#211F1B; margin:20px 0 0 0;">I explored a handful of directions for the risk-input side of the tool — a plain form, a table-first workflow, and eventually a guided, sectioned builder that walks through location, condition and work-order data step by step, flagging anything incomplete instead of letting it slide through silently.</p>
+    </div>
+    <div style="max-width:1100px; margin:48px auto 0; border-radius:4px; overflow:hidden; box-shadow:0 20px 60px rgba(33,31,27,0.1);">
+      <img src="assets/nr-real-kpi-builder.png" alt="KPI Builder — guided risk input flow with location, condition and work order sections" style="width:100%; display:block;">
+    </div>
+    <p style="max-width:900px; margin:16px auto 0; font-size:14px; color:#8C867A; text-align:center;">The KPI Builder — one of the directions I landed on for standardising how risk gets entered.</p>
+  </section>
+
+  <!-- MAKING THE SYSTEM VISIBLE -->
+  <section style="padding:100px 64px;" data-screen-label="Making the System Visible">
+    <div style="max-width:900px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#C1502F; font-weight:600;">Making the System Visible</span>
+      <p style="font-size:19px; line-height:1.7; color:#211F1B; margin:20px 0 0 0;">The most important shift was on the map. Instead of a list of individual assets, StrEAMS shows a stretch of track as a connected system — upstream and downstream markers, flow direction, and a highlighted segment tied back to a table of work orders underneath. Selecting one asset shows its neighbours, not just its own score.</p>
+      <p style="font-family:'Newsreader',serif; font-style:italic; font-size:24px; line-height:1.5; color:#211F1B; margin:36px 0 0 0;">A blocked culvert upstream affects the entire system downstream — that relationship needed to be visible before it became a failure.</p>
+    </div>
+    <div style="max-width:1100px; margin:48px auto 0; border-radius:4px; overflow:hidden; box-shadow:0 20px 60px rgba(33,31,27,0.1);">
+      <img src="assets/nr-real-asset-risk-map-1.png" alt="Asset Risk map view — connected drainage system with upstream/downstream markers and linked work order table" style="width:100%; display:block;">
+    </div>
+    <p style="max-width:900px; margin:16px auto 0; font-size:14px; color:#8C867A; text-align:center;">Asset Risk — spatial and tabular views tied to the same selection, side by side.</p>
+  </section>
+
+  <!-- CLOSING IT OUT -->
+  <section style="background:#1C1A17; padding:100px 64px;" data-screen-label="Closing It Out With Dev & BA">
+    <div style="max-width:820px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#F2A488; font-weight:600;">Closing It Out With Dev &amp; BA</span>
+      <p style="font-size:19px; line-height:1.7; color:rgba(246,243,236,0.82); margin:20px 0 0 0;">Being the only designer on a mid-flight project meant a lot of the value I added wasn't a new screen — it was staying close to the UK dev and BA teams as the build came together: clarifying intent behind a layout, working through edge cases neither of us had designed for yet, and making the trade-off calls needed to actually ship.</p>
+      <p style="font-size:19px; line-height:1.7; color:rgba(246,243,236,0.82); margin:20px 0 0 0;">That meant designing with the constraints already in place — Ellipse wasn't going away, some assets are buried with no way to inspect them, and GIS maturity varied a lot route to route. The interface had to acknowledge that rather than pretend the data was clean.</p>
+    </div>
+  </section>
+
+  <!-- OUTCOME -->
+  <section style="background:#F2ECE0; padding:100px 64px;" data-screen-label="Outcome">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#C1502F; font-weight:600;">Outcome</span>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:32px; margin-top:32px;">
+        <div>
+          <div style="font-family:'Newsreader',serif; font-weight:500; font-size:44px; color:#211F1B;">~30%</div>
+          <p style="font-size:15px; color:#5B564D; margin:8px 0 0 0;">Faster risk-assessment tasks in usability sessions vs. the legacy Ellipse workflow</p>
+        </div>
+        <div>
+          <div style="font-family:'Newsreader',serif; font-weight:500; font-size:44px; color:#211F1B;">1st</div>
+          <p style="font-size:15px; color:#5B564D; margin:8px 0 0 0;">Time asset managers could see drainage as a connected system, not a list</p>
+        </div>
+        <div>
+          <div style="font-family:'Newsreader',serif; font-weight:500; font-size:44px; color:#211F1B;">40+</div>
+          <p style="font-size:15px; color:#5B564D; margin:8px 0 0 0;">Reusable components handed to dev, so the next screen didn't start from zero</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REFLECTION -->
+  <section style="padding:100px 64px;" data-screen-label="Reflection">
+    <div style="max-width:700px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#8C867A; font-weight:600;">Reflection</span>
+      <p style="font-family:'Newsreader',serif; font-style:italic; font-size:22px; line-height:1.55; color:#211F1B; margin:20px 0 0 0;">Joining a project already in motion, alone, without room for deep research, taught me a different kind of design discipline — one about judgement under constraint rather than process. I couldn't validate everything I wanted to. What I could do was stay close to the people building it, ask "why" enough times to catch bad assumptions early, and make sure every screen resolved into something an engineer could act on — not just look at.</p>
+    </div>
+  </section>
+
+  <!-- NEXT PROJECT -->
+  <a href="Case Study - ASP.dc.html" style="display:block; text-decoration:none;">
+    <section style="background:#1C1A17; padding:80px 64px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:24px;">
+      <div>
+        <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:rgba(246,243,236,0.5); font-weight:600;">Next Case Study</span>
+        <h3 style="font-family:'Newsreader',serif; font-weight:500; font-size:36px; color:#F6F3EC; margin:12px 0 0 0;">ASP — Sterilization Workflow Platform</h3>
+      </div>
+      <span style="font-size:28px; color:#F2A488;">→</span>
+    </section>
+  </a>
+
+</div>
+
+</x-dc>
+</body>
+</html>

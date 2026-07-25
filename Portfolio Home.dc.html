@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<template id="__bundler_thumbnail" data-bg-color="#FBF9F4">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect width="200" height="200" fill="#FBF9F4"/><text x="100" y="115" font-family="Georgia,serif" font-size="72" fill="#C1502F" text-anchor="middle">P</text></svg>
+</template>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; background:#FBF9F4; }
+    a { color:#C1502F; }
+    a:hover { color:#9B3D22; }
+    ::selection { background:#F2CBB5; }
+  </style>
+</helmet>
+
+<div style="font-family:'Work Sans',sans-serif; background:#FBF9F4; min-height:100vh;">
+
+  <!-- NAV -->
+  <header style="position:sticky; top:0; z-index:50; background:linear-gradient(180deg, rgba(251,249,244,0) 0%, rgba(251,249,244,0.35) 40%, rgba(251,249,244,0.85) 70%, #FBF9F4 100%), linear-gradient(90deg,#AEE1F2,#B7BCEF,#E3B8E0,#F4A3A8,#F7CE9E,#F2ECA0,#B9E8C4);">
+    <div style="max-width:1280px; margin:0 auto; padding:24px 64px 56px; display:flex; align-items:center; justify-content:space-between;">
+      <div style="width:64px;height:64px;display:flex;align-items:center;justify-content:center;"><img src="assets/va-logo.png" alt="VA logo" style="width:100%;height:100%;object-fit:contain;"></div>
+      <nav style="display:flex; align-items:center; gap:36px;">
+        <a href="#top" style="font-size:17px; font-weight:600; color:#211F1B; text-decoration:none; background:rgba(255,255,255,0.6); padding:12px 26px; border-radius:24px;">Home</a>
+        <a href="#work" style="font-size:17px; font-weight:500; color:#211F1B; text-decoration:none;">Work</a>
+        <a href="Research and UX Work.dc.html" style="font-size:17px; font-weight:500; color:#211F1B; text-decoration:none;">Research</a>
+        <a href="#contact" style="font-size:17px; font-weight:500; color:#211F1B; text-decoration:none;">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" style="position:relative; overflow:hidden;">
+    <div style="max-width:900px; margin:0 auto; padding:120px 32px 80px; text-align:center;">
+      <h1 style="font-family:'Newsreader',serif; font-weight:500; font-size:60px; line-height:1.15; color:#211F1B; margin:0 0 28px 0;">I design digital interfaces that connect people and technology</h1>
+      <p style="font-size:19px; line-height:1.6; color:#5B564D; max-width:640px; margin:0 auto;">UX designer across banking, med-tech, and infrastructure — turning complex systems into interfaces people trust.</p>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work">
+    <div style="max-width:1200px; margin:0 auto; padding:0 64px 20px;">
+      <span style="font-family:'Work Sans',sans-serif; font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:#8C867A; font-weight:600;">Selected Case Studies</span>
+    </div>
+
+    <dc-import name="Case Row" title="HeartMath — Marketing & Brand Design" tag="Med-Tech · Wellness" meta="Senior UX Designer" blurb="Led a website revamp and a reusable HubSpot email system, plus event and affiliate creative." href="Case Study - HeartMath.dc.html" image-id="thumb-heartmath" image-src="assets/heartmath-homepage.png" placeholder-text="Drop HeartMath screenshot" reverse="{{ false }}" dark="{{ false }}" hint-size="100%,520px"></dc-import>
+
+    <dc-import name="Case Row" title="Network Rail — Asset Risk System" tag="Infrastructure · Enterprise" meta="Senior UX Designer" blurb="Reduced asset-risk analysis time for field engineers managing rail infrastructure and drainage." href="Case Study - Network Rail.dc.html" image-id="thumb-networkrail" image-src="assets/nr-real-dashboard.png" placeholder-text="Drop Network Rail screenshot" reverse="{{ true }}" dark="{{ true }}" hint-size="100%,520px"></dc-import>
+
+    <dc-import name="Case Row" title="ASP — Sterilization Workflow Platform" tag="Med-Tech · Healthcare" meta="Senior UX Designer" blurb="Streamlined sterilization tracking for hospital staff, reducing process complexity." href="Case Study - ASP.dc.html" image-id="thumb-asp" image-src="assets/asp-hero.png" placeholder-text="Drop ASP screenshot" reverse="{{ false }}" dark="{{ false }}" hint-size="100%,520px"></dc-import>
+
+    <dc-import name="Case Row" title="One Cognizant — Insights DevOps" tag="Enterprise · Internal Tools" meta="Senior UX Lead" blurb="Gave a dev-led DevOps insights tool a real information architecture, leading one junior designer." href="Case Study - One Cognizant.dc.html" image-id="thumb-onecognizant" image-src="assets/oc-hero-monitors.png" placeholder-text="Drop One Cognizant screenshot" reverse="{{ true }}" dark="{{ true }}" hint-size="100%,520px"></dc-import>
+
+    <dc-import name="Case Row" title="myTM — Headless ATM Banking App" tag="Banking · Financial Services" meta="UX Designer" blurb="Designed the iOS app behind a QR-connected headless ATM, balancing offline-first convenience with security-by-design." href="Case Study - USAA.dc.html" image-id="thumb-usaa" image-src="assets/usaa-real-home.jpg" placeholder-text="Drop myTM screenshot" reverse="{{ false }}" dark="{{ false }}" hint-size="100%,520px"></dc-import>
+
+    <dc-import name="Case Row" title="CQ Dashboard — IBM Rational × HCL" tag="Enterprise · Test Tooling" meta="UX Designer" blurb="Rebuilt IBM Rational's static test dashboard into a widget-based, fully configurable workspace." href="Case Study - CQ Dashboard.dc.html" image-id="thumb-cqdashboard" image-src="assets/cq-dashboard-thumb.png" placeholder-text="Drop CQ Dashboard screenshot" reverse="{{ true }}" dark="{{ true }}" hint-size="100%,520px"></dc-import>
+  </section>
+
+  <!-- RESEARCH TEASER -->
+  <section style="background:#F2ECE0; padding:100px 64px;">
+    <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:48px; flex-wrap:wrap;">
+      <div style="max-width:600px;">
+        <span style="font-family:'Work Sans',sans-serif; font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:#8C867A; font-weight:600;">Beyond Case Studies</span>
+        <h3 style="font-family:'Newsreader',serif; font-weight:500; font-size:34px; color:#211F1B; margin:14px 0 14px 0;">Usability testing &amp; research</h3>
+        <p style="font-size:16px; line-height:1.6; color:#5B564D; margin:0;">Independent research engagements — usability audits, moderated testing, and discovery work — not tied to a single shipped product.</p>
+      </div>
+      <a href="Research and UX Work.dc.html" style="flex-shrink:0; font-size:15px; font-weight:600; color:#211F1B; text-decoration:none; display:inline-flex; align-items:center; gap:8px; border:1.5px solid #211F1B; padding:14px 28px; border-radius:28px;">
+        View research work
+        <span>→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer id="contact" style="background:#211F1B; padding:100px 64px 48px;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div style="display:flex; align-items:flex-end; justify-content:space-between; flex-wrap:wrap; gap:32px; padding-bottom:64px; border-bottom:1px solid rgba(246,243,236,0.12);">
+        <div>
+          <span style="font-family:'Work Sans',sans-serif; font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:rgba(246,243,236,0.5); font-weight:600;">Let's Talk</span>
+          <h3 style="font-family:'Newsreader',serif; font-weight:500; font-size:44px; color:#F6F3EC; margin:14px 0 0 0;">Open to new roles &amp; collaborations</h3>
+        </div>
+        <a href="mailto:hello@example.com" style="font-size:18px; font-weight:600; color:#F6F3EC; text-decoration:none; border-bottom:1.5px solid #F2A488; padding-bottom:4px;">hello@example.com</a>
+      </div>
+      <div style="display:flex; align-items:center; justify-content:space-between; padding-top:32px; flex-wrap:wrap; gap:16px;">
+        <span style="font-size:14px; color:rgba(246,243,236,0.5);">© 2026 — Portfolio</span>
+        <div style="display:flex; gap:28px;">
+          <a href="#" style="font-size:14px; color:rgba(246,243,236,0.7); text-decoration:none;">LinkedIn</a>
+          <a href="#" style="font-size:14px; color:rgba(246,243,236,0.7); text-decoration:none;">Resume</a>
+          <a href="Research and UX Work.dc.html" style="font-size:14px; color:rgba(246,243,236,0.7); text-decoration:none;">Research</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+</x-dc>
+</body>
+</html>

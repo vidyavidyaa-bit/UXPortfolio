@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; background:#FBF9F4; }
+    a { color:#C1502F; }
+    a:hover { color:#9B3D22; }
+    ::selection { background:#F2CBB5; }
+  </style>
+</helmet>
+
+<div style="font-family:'Work Sans',sans-serif; background:#FBF9F4; min-height:100vh;">
+
+  <!-- NAV -->
+  <header style="position:sticky; top:0; z-index:50; background:rgba(251,249,244,0.9); backdrop-filter:blur(8px); border-bottom:1px solid rgba(33,31,27,0.08);">
+    <div style="max-width:1280px; margin:0 auto; padding:20px 64px; display:flex; align-items:center; justify-content:space-between;">
+      <a href="Portfolio Home.dc.html" style="width:44px;height:44px;display:flex;align-items:center;justify-content:center;text-decoration:none;"><img src="assets/va-logo.png" alt="VA logo" style="width:100%;height:100%;object-fit:contain;"></a>
+      <nav style="display:flex; align-items:center; gap:40px;">
+        <a href="Portfolio Home.dc.html#work" style="font-size:15px; font-weight:500; color:#211F1B; text-decoration:none;">Work</a>
+        <a href="Research and UX Work.dc.html" style="font-size:15px; font-weight:500; color:#211F1B; text-decoration:none;">Research</a>
+        <a href="Portfolio Home.dc.html#contact" style="font-size:15px; font-weight:600; color:#F6F3EC; text-decoration:none; background:#211F1B; padding:10px 20px; border-radius:24px;">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section style="padding:80px 32px 0; text-align:center;" data-screen-label="Hero">
+    <div style="max-width:720px; margin:0 auto;">
+      <span style="font-family:'Work Sans',sans-serif; font-size:13px; letter-spacing:0.12em; text-transform:uppercase; color:#C1502F; font-weight:600;">Med-Tech · Wellness — Marketing Design</span>
+      <h1 style="font-family:'Newsreader',serif; font-weight:500; font-size:42px; line-height:1.22; color:#211F1B; margin:20px 0 0 0;">HeartMath — Marketing &amp; Brand Design</h1>
+      <p style="font-size:17px; line-height:1.6; color:#5B564D; margin:20px 0 0 0;">Design lead for HeartMath's marketing team — spanning a full website revamp, a reusable HubSpot email system, campaign posters, and affiliate social creative.</p>
+    </div>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin-top:32px;">
+      <span style="font-size:13px; color:#5B564D; background:#F2ECE0; padding:8px 18px; border-radius:20px;">Client — HeartMath</span>
+      <span style="font-size:13px; color:#5B564D; background:#F2ECE0; padding:8px 18px; border-radius:20px;">Role — Senior UX Designer, Marketing Team</span>
+      <span style="font-size:13px; color:#5B564D; background:#F2ECE0; padding:8px 18px; border-radius:20px;">Scope — Web · Email · Campaign · Social</span>
+    </div>
+  </section>
+  <div style="height:60px;"></div>
+
+  <!-- OVERVIEW -->
+  <section style="padding:80px 64px 100px;" data-screen-label="Overview">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#8C867A; font-weight:600;">Overview</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#211F1B; margin:14px 0 32px 0;">Four workstreams, one brand system</h2>
+      <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:rgba(33,31,27,0.08); border-radius:8px; overflow:hidden;">
+        <div style="background:#F2ECE0; padding:26px;">
+          <div style="font-size:13px; color:#8C867A; margin-bottom:8px;">01</div>
+          <h4 style="font-family:'Newsreader',serif; font-weight:500; font-size:18px; color:#211F1B; margin:0 0 8px 0;">Website Revamp</h4>
+          <p style="font-size:13.5px; line-height:1.5; color:#5B564D; margin:0;">Full homepage redesign, backed by research and usability testing.</p>
+        </div>
+        <div style="background:#F2ECE0; padding:26px;">
+          <div style="font-size:13px; color:#8C867A; margin-bottom:8px;">02</div>
+          <h4 style="font-family:'Newsreader',serif; font-weight:500; font-size:18px; color:#211F1B; margin:0 0 8px 0;">Email Design System</h4>
+          <p style="font-size:13.5px; line-height:1.5; color:#5B564D; margin:0;">Reusable HubSpot modules that automated 80–90% of campaign builds.</p>
+        </div>
+        <div style="background:#F2ECE0; padding:26px;">
+          <div style="font-size:13px; color:#8C867A; margin-bottom:8px;">03</div>
+          <h4 style="font-family:'Newsreader',serif; font-weight:500; font-size:18px; color:#211F1B; margin:0 0 8px 0;">Event &amp; Campaign Creative</h4>
+          <p style="font-size:13.5px; line-height:1.5; color:#5B564D; margin:0;">Posters and banners for seasonal sales and company events.</p>
+        </div>
+        <div style="background:#F2ECE0; padding:26px;">
+          <div style="font-size:13px; color:#8C867A; margin-bottom:8px;">04</div>
+          <h4 style="font-family:'Newsreader',serif; font-weight:500; font-size:18px; color:#211F1B; margin:0 0 8px 0;">Affiliate Social Creative</h4>
+          <p style="font-size:13.5px; line-height:1.5; color:#5B564D; margin:0;">Ready-to-post social assets for HeartMath's affiliate partner network.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WEBSITE REVAMP -->
+  <section style="background:#F2ECE0; padding:100px 64px;" data-screen-label="Website Revamp">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#C1502F; font-weight:600;">01 Website Revamp</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#211F1B; margin:14px 0 12px 0;">Rebuilding the homepage from research up</h2>
+      <p style="font-size:17px; line-height:1.6; color:#5B564D; max-width:720px; margin:0 0 40px 0;">Led a full revamp of the HeartMath website, starting with competitive research into how wellness brands present their products online.</p>
+
+      <div style="margin-bottom:40px;">
+        <h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 14px 0;">What the current homepage got wrong</h4>
+        <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:rgba(33,31,27,0.08); border-radius:8px; overflow:hidden;">
+          <div style="background:#FBF9F4; padding:22px;"><h5 style="font-size:14.5px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Continuous scroll, no anchors</h5><p style="font-size:13px; line-height:1.5; color:#5B564D; margin:0;">No decision points — users stayed passive readers instead of taking action.</p></div>
+          <div style="background:#FBF9F4; padding:22px;"><h5 style="font-size:14.5px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Science before experience</h5><p style="font-size:13px; line-height:1.5; color:#5B564D; margin:0;">Explained the product before letting users feel any value — no early emotional payoff.</p></div>
+          <div style="background:#FBF9F4; padding:22px;"><h5 style="font-size:14.5px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">No single primary CTA</h5><p style="font-size:13px; line-height:1.5; color:#5B564D; margin:0;">Competing CTAs ("Shop", "Learn More", "Support") left users unsure where to go.</p></div>
+          <div style="background:#FBF9F4; padding:22px;"><h5 style="font-size:14.5px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Flat content hierarchy</h5><p style="font-size:13px; line-height:1.5; color:#5B564D; margin:0;">Every section carried equal visual weight, with no prioritized storytelling.</p></div>
+          <div style="background:#FBF9F4; padding:22px;"><h5 style="font-size:14.5px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Dense blocks of text</h5><p style="font-size:13px; line-height:1.5; color:#5B564D; margin:0;">Long paragraphs with little visual breakup meant key messages got skimmed past.</p></div>
+          <div style="background:#FBF9F4; padding:22px;"><h5 style="font-size:14.5px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Emotionally neutral UI</h5><p style="font-size:13px; line-height:1.5; color:#5B564D; margin:0;">Scientifically credible, but didn't evoke the calm the product is meant to deliver.</p></div>
+        </div>
+      </div>
+
+      <div style="margin-bottom:40px;">
+        <h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 10px 0;">Competitive research</h4>
+        <p style="font-size:14px; line-height:1.6; color:#5B564D; margin:0 0 14px 0;">Benchmarked five wellness and wearable products to understand how they guide users emotionally and cognitively, not just how they market.</p>
+        <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px;">
+          <span style="font-size:13px; color:#5B564D; background:#FBF9F4; padding:6px 14px; border-radius:20px;">Oura</span>
+          <span style="font-size:13px; color:#5B564D; background:#FBF9F4; padding:6px 14px; border-radius:20px;">Fitbit Enterprise</span>
+          <span style="font-size:13px; color:#5B564D; background:#FBF9F4; padding:6px 14px; border-radius:20px;">Calm</span>
+          <span style="font-size:13px; color:#5B564D; background:#FBF9F4; padding:6px 14px; border-radius:20px;">Headspace</span>
+          <span style="font-size:13px; color:#5B564D; background:#FBF9F4; padding:6px 14px; border-radius:20px;">Muse</span>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:16px;">
+          <div style="background:#0E1210; border-radius:8px; padding:20px 22px;"><h5 style="font-size:14px; font-weight:600; color:#4FD9C7; margin:0 0 6px 0;">Value is clear in 5 seconds</h5><p style="font-size:13px; line-height:1.5; color:rgba(246,243,236,0.7); margin:0;">Oura, Calm, and Headspace lead with one outcome-based message — visuals over text.</p></div>
+          <div style="background:#0E1210; border-radius:8px; padding:20px 22px;"><h5 style="font-size:14px; font-weight:600; color:#4FD9C7; margin:0 0 6px 0;">Emotional state designed first</h5><p style="font-size:13px; line-height:1.5; color:rgba(246,243,236,0.7); margin:0;">Calm and Headspace design tone and pacing before comprehension — emotion precedes explanation.</p></div>
+          <div style="background:#0E1210; border-radius:8px; padding:20px 22px;"><h5 style="font-size:14px; font-weight:600; color:#4FD9C7; margin:0 0 6px 0;">Experience preview before commitment</h5><p style="font-size:13px; line-height:1.5; color:rgba(246,243,236,0.7); margin:0;">Oura, Muse, and Headspace show the product experience — breathing animations, score visuals — before asking for trust.</p></div>
+          <div style="background:#0E1210; border-radius:8px; padding:20px 22px;"><h5 style="font-size:14px; font-weight:600; color:#4FD9C7; margin:0 0 6px 0;">Science supports, doesn't lead</h5><p style="font-size:13px; line-height:1.5; color:rgba(246,243,236,0.7); margin:0;">Muse, Oura, and Fitbit surface evidence after value is established, with depth on demand.</p></div>
+        </div>
+      </div>
+
+      <div>
+        <h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 10px 0;">Homepage design &amp; usability testing</h4>
+        <p style="font-size:14px; line-height:1.6; color:#5B564D; margin:0;">Designed the new homepage around these patterns — a single primary CTA, an early experience preview, and science moved in support of the story rather than ahead of it — then ran usability testing to validate the direction before handoff to development.</p>
+      </div>
+
+      <div style="position:relative; border-radius:6px; overflow:hidden;">
+        <div style="{{ homepageClipStyle }}">
+          <img src="assets/heartmath-homepage.png" alt="HeartMath homepage design" style="width:100%; display:block;">
+        </div>
+        <sc-if value="{{ !websiteExpanded }}">
+          <div style="position:absolute; left:0; right:0; bottom:0; height:160px; background:linear-gradient(180deg, rgba(242,236,224,0) 0%, #F2ECE0 85%); pointer-events:none;"></div>
+        </sc-if>
+        <div style="position:absolute; left:0; right:0; bottom:24px; display:flex; justify-content:center;">
+          <button onClick="{{ toggleWebsiteExpanded }}" style="font-family:'Work Sans',sans-serif; font-size:14px; font-weight:600; color:#211F1B; background:#FBF9F4; border:1px solid rgba(33,31,27,0.15); padding:12px 28px; border-radius:24px; cursor:pointer;">{{ websiteToggleLabel }}</button>
+        </div>
+      </div>
+
+
+      <div style="margin-top:48px;">
+        <h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 20px 0;">Usability testing — key findings (5 participants, unmoderated)</h4>
+        <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:1px; background:rgba(33,31,27,0.08); border-radius:8px; overflow:hidden; margin-bottom:28px;">
+          <div style="background:#FBF9F4; padding:24px;">
+            <span style="font-size:11px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#C1502F;">High severity</span>
+            <h5 style="font-family:'Newsreader',serif; font-weight:500; font-size:17px; color:#211F1B; margin:8px 0 6px 0;">No clear "how it works" explanation</h5>
+            <p style="font-size:13.5px; line-height:1.55; color:#5B564D; margin:0;">Users didn't understand what the device does or how "coherence" applies to them — the page needed a short explanation up front.</p>
+          </div>
+          <div style="background:#FBF9F4; padding:24px;">
+            <span style="font-size:11px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#C1502F;">High severity</span>
+            <h5 style="font-family:'Newsreader',serif; font-weight:500; font-size:17px; color:#211F1B; margin:8px 0 6px 0;">Not enough product detail to justify a purchase</h5>
+            <p style="font-size:13.5px; line-height:1.55; color:#5B564D; margin:0;">Users wanted a clearer breakdown of how the product actually helps with stress before committing.</p>
+          </div>
+          <div style="background:#FBF9F4; padding:24px;">
+            <span style="font-size:11px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#8C867A;">Medium severity</span>
+            <h5 style="font-family:'Newsreader',serif; font-weight:500; font-size:17px; color:#211F1B; margin:8px 0 6px 0;">Pricing was hard to find</h5>
+            <p style="font-size:13.5px; line-height:1.55; color:#5B564D; margin:0;">Cost was a recurring question — users wanted pricing, subscription vs. one-time purchase, and value justification stated clearly.</p>
+          </div>
+          <div style="background:#FBF9F4; padding:24px;">
+            <span style="font-size:11px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:#8C867A;">Medium severity</span>
+            <h5 style="font-family:'Newsreader',serif; font-weight:500; font-size:17px; color:#211F1B; margin:8px 0 6px 0;">Too much text, not enough visuals</h5>
+            <p style="font-size:13.5px; line-height:1.55; color:#5B564D; margin:0;">Users skimmed rather than read, and asked for short videos, diagrams, and demos over paragraphs.</p>
+          </div>
+        </div>
+
+        <div style="background:#0E1210; border-radius:8px; padding:28px 32px;">
+          <span style="font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:#4FD9C7; font-weight:700;">What changed as a result</span>
+          <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-top:16px;">
+            <p style="font-size:14px; line-height:1.55; color:rgba(246,243,236,0.8); margin:0;">Added a "how it works" visual explainer near the top, ahead of the science deep-dive.</p>
+            <p style="font-size:14px; line-height:1.55; color:rgba(246,243,236,0.8); margin:0;">Surfaced pricing and FAQ answers earlier instead of hiding them behind extra clicks.</p>
+            <p style="font-size:14px; line-height:1.55; color:rgba(246,243,236,0.8); margin:0;">Rebalanced the page toward visuals — icons, diagrams, and short demos in place of long text blocks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EMAIL DESIGN SYSTEM -->
+  <section style="padding:100px 64px;" data-screen-label="Email Design System">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#C1502F; font-weight:600;">02 Email Design System</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#211F1B; margin:14px 0 12px 0;">From one-off emails to a reusable module system</h2>
+      <p style="font-size:17px; line-height:1.6; color:#5B564D; max-width:720px; margin:0 0 40px 0;">Marketing was building every campaign email from scratch — Holiday Sale, Summer Sale, Spring Sale — with no shared system. I designed a modular email design system on HubSpot so most of each build could assemble itself.</p>
+
+      <div style="display:grid; grid-template-columns:280px 1fr; gap:32px; margin-bottom:28px;">
+        <div><h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">The problem</h4><p style="font-size:14px; color:#5B564D; margin:0;">Every seasonal campaign (Holiday, Summer, Spring) was designed and built independently — slow, inconsistent, and hard to scale.</p></div>
+        <div style="background:#E4F7F0; border-radius:6px; padding:18px 22px; font-size:15px; color:#0E1210;">A reusable module library would let marketing assemble new campaigns without a designer touching every email.</div>
+      </div>
+      <div style="display:grid; grid-template-columns:280px 1fr; gap:32px; margin-bottom:28px;">
+        <div><h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">The system</h4><p style="font-size:14px; color:#5B564D; margin:0;">Built a HubSpot-native module library — headers, product grids, CTAs, footers — that automated roughly 80–90% of each new email build.</p></div>
+        <div style="background:#E4F7F0; border-radius:6px; padding:18px 22px; font-size:15px; color:#0E1210;">The only manual step left: the campaign banner, designed in Figma and handed off per send.</div>
+      </div>
+      <div style="display:grid; grid-template-columns:280px 1fr; gap:32px;">
+        <div><h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">The result</h4><p style="font-size:14px; color:#5B564D; margin:0;">Campaign turnaround dropped from a full custom build to a banner swap — freeing design time for higher-impact work.</p></div>
+        <div style="background:#E4F7F0; border-radius:6px; padding:18px 22px; font-size:15px; color:#0E1210;">One system now powers every seasonal sale email.</div>
+      </div>
+
+      <div style="margin-top:40px;">
+        <div style="border-radius:6px; overflow:hidden; margin-bottom:24px;">
+          <x-import component-from-global-scope="image-slot" from="./image-slot.js" id="hm-email-system" shape="rect" placeholder="Drop HubSpot module library / email design system" style="width:100%;aspect-ratio:4/3;"></x-import>
+        </div>
+        <h4 style="font-size:16px; font-weight:600; color:#211F1B; margin:0 0 16px 0;">Sample HubSpot banners, built from the module system</h4>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+          <img src="assets/hm-hubspot-banner-1.png" alt="HeartMath 20% off promo banner" style="width:100%; border-radius:6px; display:block;">
+          <img src="assets/hm-hubspot-banner-2.png" alt="HeartMath 20% off final hours banner" style="width:100%; border-radius:6px; display:block;">
+          <img src="assets/hm-hubspot-banner-6.png" alt="HeartMath 20% off nervous system training banner, app dashboard preview" style="width:100%; border-radius:6px; display:block;">
+          <img src="assets/hm-hubspot-banner-3.png" alt="HeartMath final hours 25% off banner" style="width:100%; border-radius:6px; display:block;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENT & CAMPAIGN CREATIVE -->
+  <section style="background:#1C1A17; padding:100px 64px;" data-screen-label="Event Creative">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#4FD9C7; font-weight:600;">03 Event &amp; Campaign Creative</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#F6F3EC; margin:14px 0 12px 0;">Posters &amp; banners for events and sales</h2>
+      <p style="font-size:16px; line-height:1.6; color:rgba(246,243,236,0.7); max-width:700px; margin:0 0 40px 0;">Designed event posters and campaign banners for company events and seasonal sales, extending the email system's visual language into standalone creative.</p>
+      <div style="display:grid; grid-template-columns:1.1fr 1fr; grid-template-rows:auto auto; gap:20px;">
+        <div style="grid-row:1/3; border-radius:8px; overflow:hidden; box-shadow:0 20px 50px -12px rgba(0,0,0,0.4);">
+          <img src="assets/hm-poster-master-stress.png" alt="Master Your Stress campaign poster" style="width:100%; display:block;">
+        </div>
+        <div style="border-radius:8px; overflow:hidden; box-shadow:0 20px 50px -12px rgba(0,0,0,0.4);">
+          <img src="assets/hm-poster-summit.png" alt="Power of Love Summit event banner" style="width:100%; display:block;">
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+          <div style="border-radius:8px; overflow:hidden; box-shadow:0 20px 50px -12px rgba(0,0,0,0.4);">
+            <img src="assets/hm-poster-25off.png" alt="25% off nervous system relief banner" style="width:100%; height:100%; object-fit:cover; display:block;">
+          </div>
+          <div style="border-radius:8px; overflow:hidden; box-shadow:0 20px 50px -12px rgba(0,0,0,0.4);">
+            <img src="assets/hm-poster-selfcare.png" alt="Add Heart Podcast — Louie Schwartzberg episode poster" style="width:100%; height:100%; object-fit:cover; display:block;">
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:20px; border-radius:8px; overflow:hidden; box-shadow:0 20px 50px -12px rgba(0,0,0,0.4);">
+        <img src="assets/hm-brochure-patient.png" alt="HeartMath patient brochure" style="width:100%; display:block;">
+      </div>
+    </div>
+  </section>
+
+  <!-- AFFILIATE SOCIAL -->
+  <section style="padding:100px 64px;" data-screen-label="Affiliate Social">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#C1502F; font-weight:600;">04 Affiliate Social Creative</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#211F1B; margin:14px 0 12px 0;">Social assets for the affiliate network</h2>
+      <p style="font-size:17px; line-height:1.6; color:#5B564D; max-width:700px; margin:0 0 12px 0;">Selected the strongest assets from the affiliate creative library — spanning seasonal sales, testimonials, and product education — and adapted each to the aspect ratios partners needed for their own feeds and stories.</p>
+      <p style="font-size:14px; line-height:1.5; color:#8C867A; max-width:700px; margin:0 0 48px 0;">Example: the summer sale creative below was built once, then resized for both a square feed post and a 4:5 story/pin crop.</p>
+
+      <div style="display:flex; align-items:flex-end; justify-content:center; flex-wrap:wrap; padding:20px 0 44px 0;">
+        <div style="background:#fff; padding:10px 10px 32px 10px; box-shadow:0 16px 32px rgba(33,31,27,0.16); transform:rotate(-6deg); width:190px; margin:0 -14px 18px 0; position:relative; z-index:1;">
+          <img src="assets/hm-social-spring-post.png" alt="Affiliate social post — spring campaign, nervous system messaging" style="width:100%; display:block; aspect-ratio:4/5; object-fit:cover;">
+        </div>
+        <div style="background:#fff; padding:10px 10px 32px 10px; box-shadow:0 16px 32px rgba(33,31,27,0.16); transform:rotate(4deg); width:200px; margin:0 -16px 4px 0; position:relative; z-index:2;">
+          <img src="assets/hm-social-summer-sale.png" alt="Affiliate social post — HeartMath Summer Sale, square crop" style="width:100%; display:block; aspect-ratio:1/1; object-fit:cover;">
+        </div>
+        <div style="background:#fff; padding:10px 10px 32px 10px; box-shadow:0 16px 32px rgba(33,31,27,0.16); transform:rotate(-3deg); width:170px; margin:0 -12px 34px 0; position:relative; z-index:3;">
+          <img src="assets/hm-social-testimonial-quote.png" alt="Affiliate social post — customer testimonial with certification offer" style="width:100%; display:block; aspect-ratio:4/5; object-fit:cover;">
+        </div>
+        <div style="background:#fff; padding:10px 10px 32px 10px; box-shadow:0 20px 40px rgba(33,31,27,0.2); transform:rotate(2deg); width:230px; margin:0 -18px 12px 0; position:relative; z-index:4;">
+          <img src="assets/hm-social-summer-sale-portrait.png" alt="Affiliate social post — HeartMath Summer Sale, 4:5 story crop" style="width:100%; display:block; aspect-ratio:4/5; object-fit:cover;">
+        </div>
+        <div style="background:#fff; padding:10px 10px 32px 10px; box-shadow:0 16px 32px rgba(33,31,27,0.16); transform:rotate(-5deg); width:190px; margin:0 -14px 28px 0; position:relative; z-index:5;">
+          <img src="assets/hm-social-product-sale.png" alt="Affiliate social post — in-app dashboard with benefit list and shop now CTA" style="width:100%; display:block; aspect-ratio:4/5; object-fit:cover;">
+        </div>
+        <div style="background:#fff; padding:10px 10px 32px 10px; box-shadow:0 16px 32px rgba(33,31,27,0.16); transform:rotate(5deg); width:200px; margin:0 -16px 6px 0; position:relative; z-index:6;">
+          <img src="assets/hm-social-find-calm.png" alt="Affiliate social post — Less Stress More Balance, lifestyle photo with sale badge" style="width:100%; display:block; aspect-ratio:4/5; object-fit:cover;">
+        </div>
+        <div style="background:#fff; padding:10px 10px 32px 10px; box-shadow:0 16px 32px rgba(33,31,27,0.16); transform:rotate(-2deg); width:180px; margin:0 0 22px 0; position:relative; z-index:7;">
+          <img src="assets/hm-social-app-benefits.png" alt="Affiliate social post — clinical psychologist testimonial on HeartMath for anxiety" style="width:100%; display:block; aspect-ratio:1/1; object-fit:cover;">
+        </div>
+      </div>
+
+      <div style="max-width:340px; margin:0 auto; display:flex; flex-direction:column; gap:8px;">
+        <img src="assets/hm-social-carousel.png" alt="Affiliate social post — nervous system training education graphic" style="width:100%; display:block; border-radius:8px; box-shadow:0 12px 28px rgba(33,31,27,0.12);">
+        <span style="font-size:12px; color:#8C867A; text-align:center;">Instagram Carousel · Product education</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUTCOME -->
+  <section style="background:#F2ECE0; padding:100px 64px;" data-screen-label="Outcome">
+    <div style="max-width:1100px; margin:0 auto;">
+      <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:#C1502F; font-weight:600;">Outcome</span>
+      <h2 style="font-family:'Newsreader',serif; font-weight:500; font-size:32px; color:#211F1B; margin:14px 0 32px 0;">What this work delivered</h2>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:32px;">
+        <div><h4 style="font-size:15px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">Faster campaigns</h4><p style="font-size:14px; color:#5B564D; margin:0;">Email builds went from full custom design to a banner swap inside a reusable module system.</p></div>
+        <div><h4 style="font-size:15px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">A researched, tested homepage</h4><p style="font-size:14px; color:#5B564D; margin:0;">The new website homepage was grounded in competitor research and validated through usability testing.</p></div>
+        <div><h4 style="font-size:15px; font-weight:600; color:#211F1B; margin:0 0 6px 0;">One consistent brand system</h4><p style="font-size:14px; color:#5B564D; margin:0;">Email, web, event, and affiliate creative all now share the same visual language.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEXT PROJECT -->
+  <a href="Case Study - Network Rail.dc.html" style="display:block; text-decoration:none;">
+    <section style="background:#1C1A17; padding:80px 64px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:24px;">
+      <div>
+        <span style="font-size:13px; letter-spacing:0.1em; text-transform:uppercase; color:rgba(246,243,236,0.5); font-weight:600;">Next Case Study</span>
+        <h3 style="font-family:'Newsreader',serif; font-weight:500; font-size:36px; color:#F6F3EC; margin:12px 0 0 0;">Network Rail — Asset Risk System</h3>
+      </div>
+      <span style="font-size:28px; color:#4FD9C7;">→</span>
+    </section>
+  </a>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { websiteExpanded: false };
+  renderVals() {
+    const expanded = this.state.websiteExpanded;
+    return {
+      websiteExpanded: expanded,
+      homepageClipStyle: expanded ? 'overflow:visible;' : 'aspect-ratio:1440/1150; overflow:hidden;',
+      websiteToggleLabel: expanded ? 'Show Less' : 'View Full Website',
+      toggleWebsiteExpanded: () => this.setState(s => ({ websiteExpanded: !s.websiteExpanded })),
+    };
+  }
+}
+
+</script>
+</body>
+</html>
